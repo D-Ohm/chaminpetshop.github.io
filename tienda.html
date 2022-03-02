@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+	<meta charset="utf-8">
+	<title>Chamin Pet Shop</title>
+
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+	<link href='normalize.css' rel='stylesheet'/>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<header class="container" id="app" >
+			<p>Hola</p>
+
+			<div class="topright">
+				<div class="text-md-end">
+					
+				 	<button class="btn btn-outline-primary">
+	          	 Carrito ({{ cart.length }})
+	          	 	
+	        		</button>
+
+				</div>       
+            
+    		</div>
+    			</hr>	
+    		
+	</header> 
+	</head>
+	<body>
+	<product :one-day-shipping="true" v-on:add-to-cart="updateCart"> </product>
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script src="main.js"></script>
+	</body>
+	<footer>
+				<img class="pie" src='assets/portada.jpg' title='pie' alt='pie'></img>
+
+	</footer>
+</html>

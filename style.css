@@ -1,0 +1,176 @@
+
+.logo {
+
+float: left;
+	}
+
+.logo::after {
+  content: "";
+  clear: both;
+
+}
+.navbar {
+	padding 	: 1% 1% 7% 1%;
+	/*display 	: inline-flex;*/
+  	/*background-image: url(assets/FondoWebRec2.png);*/
+  clear: both;
+  	}
+.menu {
+padding 	: 1% 1% 1% 1%;
+  font-size-adjust: 0.6;
+}
+
+.container {
+  display: grid;
+  width: 750px;
+  height: 600px;
+  grid-template-columns: 200px 1fr 1fr;
+  grid-template-rows: 80px 1fr 1fr 100px;
+  grid-gap: 12rem;
+  background-color: black;
+  padding: 10px;
+}
+/*.container {
+  display: grid;
+  /*grid-template-columns: 100px 30% 3fr;
+  grid-template-columns: 10fr 10fr 10fr;
+  background-color: white;
+  padding: 10px;
+}
+
+.header {
+  grid-row: 1 / 2;
+  grid-column: 1 / 4;
+}*/
+
+.item {
+  /*background-color: rgba(50, 157, 157, 0);*/
+  /*border: 3px solid rgba(0, 140, 250, 0.5);*/
+  padding: 20px 20px 50%  20px;
+  margin: 0%;
+  font-size: 30px;
+  text-align: center;
+}
+/*.item1 {
+  grid-row-start: 1;
+  grid-row-end: 5;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}*/
+
+/*shorthand */
+.item1 {
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
+}
+
+
+.content {
+	background-size: 100%;
+	background-image: url(assets/perrogatoGrande2.jpg);
+	padding: 20px 20px 50%  20px;
+  grid-row: 4 / 4;
+  grid-column: 2/ 4;
+
+}
+
+.content-1 {
+  grid-row: 2 / 3;
+  grid-column: 2 / 4;
+}
+
+.content-2 {
+  grid-row: 3 / 4;
+  grid-column: 2 / 3;
+}
+
+.content-3 {
+  grid-row: 3 / 4;
+  grid-column: 3 / 4;
+}
+
+.footer {
+  grid-row: 4 / 5;
+  grid-column: 1 / 4;
+}
+
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+  	overflow 	: hidden;
+  	/*background-color: rgba(20, 110, 220, 0.5);*/
+  		background-image: url(assets/FondoWebRec.png);
+
+
+  	
+  }
+
+li {
+
+	float: right;
+
+		
+
+
+	}
+
+li >a {
+
+	display: inline-block;
+  	color 		: black;
+  	text-align 	: center;
+  	text-decoration: none;
+  	padding: 14px 18px;
+  
+	}
+
+li >a:hover {
+	background-color: rgba(100, 255, 255, 0.2);
+	}
+
+
+.gallery-wrap .img-big-wrap img {
+
+	height: 480px;
+	width: auto;
+	display: inline-block;
+	display: flex; 
+	margin: auto; 
+	justify-content: center;
+}
+
+.gallery-wrap .img-small-wrap .item-gallery {
+	width: 60px;
+	height: 60px;
+	border: 1px 2px;
+	display: inline-block;
+	overflow: hidden;
+	border: 1px solid #dee2e6;
+}
+
+.gallery-wrap .img-small-wrap {
+	text-align: center;
+}
+
+.gallery-wrap .img-small-wrap img {
+	max-width: 100%;
+	max-height: 100%;
+	object-fit: cover;
+	border-radius: 4px;
+}
+
+.btn-disabled {
+	border-color: gray !important;
+	color: gray !important;
+}
+
+.reviews-container {
+	padding-top: 30px;
+	
+}
+.boton {
+	color: #ff0000;
+  	border-color: #ff0000;
+}
