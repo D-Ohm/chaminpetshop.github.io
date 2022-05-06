@@ -1,231 +1,144 @@
-
 html {
-  /*background-color: #d2d2d2;*/
-/* Created with https://www.css-gradient.com */
-background: rgba(255, 255, 203, 1.0);
-background: -webkit-linear-gradient(top left, rgba(255, 255, 203, 1.0), rgba(58, 185, 255, 1.0));
-background: -moz-linear-gradient(top left, rgba(255, 255, 203, 1.0), rgba(58, 185, 255, 1.0));
-background: linear-gradient(to bottom right, rgba(255, 255, 229, 0.95), rgb(5, 166, 255));
-
-}
-
-
-ul {
-  list-style-type: none;
-  margin: 0;
- 
-    /*background-color: rgb(0, 40, 255);*/
-    /*! background-image: url(assets/FondoWebRecSky.jpg); */  
-
-
+  background: linear-gradient(to bottom right, rgba(255, 255, 229, 0.95), rgb(5, 166, 255));
+  
+  }
+  
+  .container {
+    display: grid;
+    width: 100%;
+    height: 45em;
+    grid-template-columns: 200px 1fr 1fr;
+    grid-template-rows: 80px 20% 1fr 100px;
+    grid-gap: 0rem;
+    grid-template-columns:
+      [main-start sidebar-start] 1fr [sidebar-end content-start] 1fr [column3-start] 1fr [content-end main-end];
+    grid-template-rows:
+      [row1-start] 20% [row2-start] 100% [row3-start] 100% [row4-start] 30% [row4-end];
+  }
+  
+  .header {
+    padding   : 1% 0% 0% 0%;
+    grid-column: main-start / main-end;
+    grid-row: row1-start / row2-start;
+   }
+  
+  .sidebar {
+    grid-area: sidebar;
+    grid-column: sidebar-start / sidebar-end;
+    grid-row: row2-start / row4-start;
+  }
+  
+  .content-1 {
+    position: relative;
+    margin: 5% 0% 0% 0%;
     
-  background-color: #04040466;
-  }
-
-li {
-
-
-padding: 1% 14.4% 1% 12%;
-    /*! margin: 0% 0% 0% 0%; */
-  /*! margin-top: 0%; */
-  /*! margin-bottom: 0%; */
-  }
-
-li >a {
-
-  /*! display: block; */
-  color     : white;
-  /*! text-align  : center; */
-  text-decoration: none;
-  padding: 10% 0% 0% 0%;
-  /*! margin: 0% 0% 0% 0%; */
-  font-family: 'Rubik Moonrocks', cursive;
+    background-size: 100%;
+    background-image: url(assets/perrogatoGrande2.jpg);
+    grid-column: main-start / main-end;
+    grid-row: row2-start / row3-start;
   
-  
-  /*! position: absolute; */
-  /*! margin: 0; */
   }
-
-li:hover {
-  background-color: rgba(100, 255, 255, 0.8);
-  color: black;
- 
+  .hello {
+    position: absolute;
+    top: 15%;
+    left: 6%;
+    width: 29%;
+    line-height: 1.6;
+    letter-spacing: 1px; 
   }
-.material-icons {
-  /* font-family: 'Material Icons'; */
-  /* font-weight: normal; */
-  /* font-style: normal; */
-  /* font-size: 24px;   Preferred icon size */
-  /* display: inline-block; */
-  /* line-height: 1; */
-  /* text-transform: none; */
-  /* letter-spacing: normal; */
-  /* word-wrap: normal; */
-  /* white-space: nowrap; */
-  /* direction: ltr; */
-  float: right;
-  /* margin: 21px; */
-
-  /* Support for all WebKit browsers. */
-  /* -webkit-font-smoothing: antialiased; */
-  /* Support for Safari and Chrome. */
-  text-rendering: optimizeLegibility;
-
-  /* Support for Firefox. */
-  /* -moz-osx-font-smoothing: grayscale; */
-
-  /* Support for IE. */
-  /* font-feature-settings: 'liga'; */
-  margin-right: 26px;
-  margin-top: 66px;
-  margin-left: 18px;
-}
-.material-icons.md-dark { color: rgba(0, 0, 0, 0.82); }
-.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
-.material-icons.md-48 { font-size: 41px; }
-
-
-
-
-
-.container {
-  display: grid;
-  width: 100%;
-  height: 45em;
-  grid-template-columns: 200px 1fr 1fr;
-  grid-template-rows: 80px 20% 1fr 100px;
-  grid-gap: 0rem;
- /*! grid-template-areas:
-      "header header header" "content-1 content-1 content-1" "sidebar content-2 content-2" "sidebar content-3 content-3" "footer footer footer"; */
-  grid-template-columns:
-    [main-start sidebar-start] 1fr [sidebar-end content-start] 1fr [column3-start] 1fr [content-end main-end];
-  grid-template-rows:
-    [row1-start] 20% [row2-start] 100% [row3-start] 100% [row4-start] 30% [row4-end];
-}
-/*.item {*/
-  /*background-color: rgba(50, 157, 157, 0);*/
-  /*border: 3px solid rgba(0, 140, 250, 0.5);*/
- /* padding: 20px 20px 50%  20px;
-  margin: 0%;
-}*/
-.header {
-  /*! grid-area: header; */
-  padding   : 1% 0% 0% 0%;
-  /*! margin: 0; */
-  grid-column: main-start / main-end;
-  grid-row: row1-start / row2-start;
- }
-
-.sidebar {
-  grid-area: sidebar;
-  grid-column: sidebar-start / sidebar-end;
-  grid-row: row2-start / row4-start;
-}
-
-.content-1 {
-  /*grid-area: content-1;*/
-  position: relative;
-  margin: 5% 0% 0% 0%;
-  
-  background-size: 100%;
-  background-image: url(assets/perrogatoGrande2.jpg);
-  grid-column: main-start / main-end;
-  grid-row: row2-start / row3-start;
-
-}
-.hello {
-  position: absolute;
-  top: 15%;
-  left: 6%;
-  width: 29%;
-  /*! height: 9%; */
-
-  line-height: 1.6;
-  /*! letter-spacing: revert-layer; */
-}
-.title {
-  color: #fff;
-  font-size: 3rem;
-  font-family: 'Rubik Moonrocks', cursive;  margin-top: 15%;
-}
-.paragraf {
-  color: #5df7e1;
-  font-size: 1.5rem;
-  font-family: 'Mukta', cursive;  margin-top: 11%;
-}
-
-.content-2 {
-  /*grid-area: content-2;*/
-  padding: 20px 20px 50%  20px;
-
-  grid-column: content-start / column3-start;
-  grid-row: row3-start / row4-start;
-}
-
-.content-3 {
-  /*grid-area: content-3;*/
-  grid-column: column3-start / content-end;
-  grid-row: row3-start / row4-start;
-}
-
-.footer {
-  /*! grid-area: footer; */
-  grid-column: main-start / main-end;
-  grid-row: row4-start / row4-end;
-  background-image: url(assets/FondoWebRecSky.jpg); 
-  background-size: 75%;
-
-  padding-bottom: 20%;
-}
-
-.menu {
-  
-  padding: 0% 0% 0% 0%;
-  font-size-adjust: 0.60;
-   overflow: hidden;
-  /*! background-color: #0028ff; */
-
-/*! background-color: #00ffff40; */
-  display: flex;
-}
-.logo {
-  width: 9.5rem;
-  /*image-rendering: optimizeSpeed;*/
-  /*background-image: url(assets/logo2.jpeg);*/
-  position: relative;
-  float: left;
-  z-index: 1;
-/*! background-color: #33beff00; */
-  margin-top: 12px;
-  margin-left: 11px;
+  .title {
+    color: #fff;
+    font-size: 3rem;
+    font-family: 'Rubik Moonrocks', cursive;  margin-top: 15%;
   }
-  #buscador {
-  background-image: url(icons/Search-30-60px/icons8-search-30.png);
-  background-position: 95% 40%; 
-  background-size: 1.7em;
-  background-repeat: no-repeat;
-  padding   : 1% 30% 1% 1%;
-  margin: 5% 0% 0% 8%;
-  border: 2px solid #040404e6;
-  border-radius: 20px;
+  .paragraf {
+    color: #5df7e1;
+    font-size: 1.5rem;
+    font-family: 'Mukta', cursive;  margin-top: 11%;
   }
- .icon {
-
-  background-size: 100%;
-  float: right;
-  margin: 5% 3% 1% 1%;
   
- }
- .icart {
-  background-image: url(icons/carrito-de-compras-2.png);
-  padding   : 19px;
- }
- .iuser {
-  background-image: url(icons/usuario3.png); 
-  padding   : 20px;
- }
- .icontact {
-    background-image: url(icons/charla3.png); 
-  padding   : 20px;
-
- }
+  .content-2 {
+    padding: 20px 20px 50%  20px;
+  
+    grid-column: content-start / column3-start;
+    grid-row: row3-start / row4-start;
+  }
+  
+  .content-3 {
+    grid-column: column3-start / content-end;
+    grid-row: row3-start / row4-start;
+  }
+  
+  .footer {
+    grid-column: main-start / main-end;
+    grid-row: row4-start / row4-end;
+    background-image: url(assets/FondoWebRecSky.jpg); 
+    background-size: 75%;
+  
+    padding-bottom: 20%;
+  }
+  
+  .menu {
+    display: flex;
+    margin: 0;
+    background-color: #04040466;
+    list-style-type: none;
+    padding: 0% 0% 0% 0%;
+    font-size-adjust: 0.60;
+    overflow: hidden;
+    
+  }
+   .listmenu {
+    padding: 1% 14.4% 1% 12%;
+   }
+  
+  .listmenu >a {
+    color     : white;
+    text-decoration: none;
+    font-family: 'Rubik Moonrocks', cursive;
+    }
+  
+    .listmenu:hover {
+    background-color: rgba(100, 255, 255, 0.8);
+    color: black;
+   
+    }
+  
+  .logo {
+    width: 9.5rem;
+    position: relative;
+    float: left;
+    z-index: 1;
+    margin-top: 12px;
+    margin-left: 11px;
+    }
+    #buscador {
+    background-image: url(icons/Search-30-60px/icons8-search-30.png);
+    background-position: 95% 40%; 
+    background-size: 1.7em;
+    background-repeat: no-repeat;
+    padding   : 1% 30% 1% 1%;
+    margin: 5% 0% 0% 8%;
+    border: 2px solid #040404e6;
+    border-radius: 20px;
+    }
+   .icon {
+  
+    background-size: 100%;
+    float: right;
+    margin: 5% 3% 1% 1%;
+    
+   }
+   .icart {
+    background-image: url(icons/carrito-de-compras-2.png);
+    padding   : 19px;
+   }
+   .iuser {
+    background-image: url(icons/usuario3.png); 
+    padding   : 20px;
+   }
+   .icontact {
+      background-image: url(icons/charla3.png); 
+    padding   : 20px;
+  
+   }
