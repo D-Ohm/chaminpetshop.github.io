@@ -72,7 +72,7 @@
     background-color: #04040466;
     list-style-type: none;
     padding: 0% 0% 0% 0%;
-    font-size-adjust: 0.6;
+    font-size-adjust: 1.6;
     overflow: hidden;
     position: relative;
     clear: both;
@@ -106,15 +106,15 @@
     background-position: 95% 50%;
     background-size: 1.7em;
     background-repeat: no-repeat;
-    padding: 1% 25% 1% 1%;
-    margin: 5% 0% 3% 10%;
+    padding: 1% 35% 1% 1%;
+    margin: 4% 0% 3% 10%;
     border: 2px solid #040404e6;
-    border-radius: 63px;
+    border-radius: 60px;
   }
   .icon {
     background-size: 100%;
     float: right;
-    margin: 5% 5% 1% 1%;
+    margin: 4% 5% 1% 1%;
   }
   .icart {
     background-image: url(icons/carrito-de-compras-2.png);
@@ -127,6 +127,137 @@
   .icontact {
     background-image: url(icons/charla3.png);
     padding: 50px;
+  }
+}
+@media (min-width: 2200px)and (max-width: 3000px) {
+  .container1 {
+    background: linear-gradient(
+      to bottom right,
+      rgba(255, 255, 229, 0.95),
+      rgb(5, 166, 255)
+    );
+    display: grid;
+    width: 100%;
+    height: 45em;
+    grid-gap: 0rem;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 325% 100% 100% 30%;
+  }
+
+  .header {
+    grid-row: 1 / 2;
+    padding: 1% 0% 0% 0%;
+  }
+
+  .content-1 {
+    position: relative;
+    margin: 0% 0% 0% 0%;
+    background-clip: padding-box;
+    background-size: 100%;
+    background-position-x: center;
+    background-image: url(assets/perrogatoGrande2.jpg);
+    background-repeat: no-repeat;
+    grid-row: 2 / 3;
+  }
+  .hello {
+    position: absolute;
+    top: 15%;
+    left: 6%;
+    width: 29%;
+    line-height: 1.6;
+    letter-spacing: 1px;
+  }
+  .title {
+    color: #fff;
+    font-size: 8rem;
+    font-family: "Rubik Moonrocks", cursive;
+    margin-top: 15%;
+  }
+  .paragraf {
+    color: #5df7e1;
+    font-size: 3.5rem;
+    font-family: "Mukta", cursive;
+    margin-top: 11%;
+  }
+
+  .content-2 {
+    padding: 20px 20px 50% 20px;
+    grid-row: 3 / 4;
+  }
+
+  .content-3 {
+    grid-row: 4 / 5;
+  }
+
+  .footer {
+    grid-row: 5 / 5;
+    background-image: url(assets/FondoWebRecSky.jpg);
+    background-size: 75%;
+
+    padding-bottom: 20%;
+  }
+
+  .menu {
+    display: flex;
+    margin: 0% 0% 0% 0%;
+    background-color: #04040466;
+    list-style-type: none;
+    padding: 0% 0% 0% 0%;
+    font-size-adjust: 1;
+    overflow: hidden;
+    position: relative;
+    clear: both;
+  }
+  .listmenu {
+    padding: 1% 14.4% 1% 12%;
+  }
+
+  .listmenu > a {
+    color: white;
+    text-decoration: none;
+    font-family: "Rubik Moonrocks", cursive;
+  }
+
+  .listmenu:hover {
+    background-color: rgba(100, 255, 255, 0.8);
+    color: black;
+  }
+
+  .logo {
+    width: 11.5rem;
+    position: relative;
+    float: left;
+    z-index: 1;
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-bottom: 1%;
+  }
+  #buscador {
+    background-image: url(icons/Search-30-60px/icons8-search-30.png);
+    background-position: 95% 50%;
+    background-size: 1.7em;
+    background-repeat: no-repeat;
+    padding: 1% 35% 1% 1%;
+    margin: 4.5% 0% 3% 10%;
+    border: 2px solid #040404e6;
+    border-radius: 60px;
+  }
+  .icon {
+    background-size: 100%;
+    float: right;
+    margin: 5% 4.3% 1% 1%;
+  }
+  .icart {
+    background-image: url(icons/carrito-de-compras-2.png);
+    padding: 30px;
+  }
+  .iuser {
+    background-image: url(icons/usuario3.png);
+    padding: 30px;
+  }
+  .icontact {
+    background-image: url(icons/charla3.png);
+    padding: 30px;
   }
 }
 
@@ -183,13 +314,13 @@
   }
   .title {
     color: #fff;
-    font-size: 3rem;
+    font-size: 5rem;
     font-family: "Rubik Moonrocks", cursive;
     margin-top: 15%;
   }
   .paragraf {
     color: #5df7e1;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-family: "Mukta", cursive;
     margin-top: 11%;
   }
@@ -244,7 +375,7 @@
   }
 
   .logo {
-    width: 15.5rem;
+    width: 8.5rem;
     position: relative;
     float: left;
     z-index: 1;
@@ -257,15 +388,15 @@
     background-position: 95% 40%;
     background-size: 1.7em;
     background-repeat: no-repeat;
-    padding: 1% 30% 1% 1%;
-    margin: 5% 0% 3% 10%;
+    padding: 1% 33% 1% 1%;
+    margin: 4% 0% 3% 10%;
     border: 2px solid #040404e6;
-    border-radius: 20px;
+    border-radius: 60px;
   }
   .icon {
     background-size: 100%;
     float: right;
-    margin: 5% 3% 1% 1%;
+    margin: 4% 4.3% 1% 1%;
   }
   .icart {
     background-image: url(icons/carrito-de-compras-2.png);
@@ -391,7 +522,7 @@
     padding: 1% 30% 1% 1%;
     margin: 5% 0% 3% 12%;
     border: 2px solid #040404e6;
-    border-radius: 20px;
+    border-radius: 60px;
   }
   .icon {
     background-size: 100%;
