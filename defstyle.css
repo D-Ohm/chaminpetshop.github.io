@@ -1,4 +1,4 @@
-@media (min-width: 2200px) {
+@media (min-width: 3000px) {
   .container1 {
     background: linear-gradient(
       to bottom right,
@@ -129,7 +129,7 @@
     padding: 50px;
   }
 }
-@media (min-width: 2200px)and (max-width: 3000px) {
+@media (min-width: 2200px)and (max-width: 2999px) {
   .container1 {
     background: linear-gradient(
       to bottom right,
@@ -237,7 +237,7 @@
     background-position: 95% 40%;
     background-size: 3.7em;
     background-repeat: no-repeat;
-    padding: 1% 33% 1% 1%;
+    padding: 1% 23% 1% 1%;
     margin: 4% 0% 3% 10%;
     border: 2px solid #040404e6;
     border-radius: 60px;
@@ -387,13 +387,13 @@
   #buscador {
     background-image: url(icons/Search-30-60px/icons8-search-30.png);
     background-position: 95% 40%;
-    background-size: 3.7em;
+    background-size: 2em;
     background-repeat: no-repeat;
-    padding: 1% 33% 1% 1%;
+    padding: 1% 18% 1% 1%;
     margin: 4% 0% 3% 10%;
     border: 2px solid #040404e6;
     border-radius: 60px;
-    font-size-adjust: 1.2;
+    font-size-adjust: 0.7;
     }
   .icon {
     background-size: 100%;
@@ -402,15 +402,15 @@
   }
   .icart {
     background-image: url(icons/carrito-de-compras-2.png);
-    padding: 19px;
+    padding: 25px;
   }
   .iuser {
     background-image: url(icons/usuario3.png);
-    padding: 20px;
+    padding: 25px;
   }
   .icontact {
     background-image: url(icons/charla3.png);
-    padding: 20px;
+    padding: 25px;
   }
 }
 
@@ -521,8 +521,8 @@
     background-position: 95% 40%;
     background-size: 1.7em;
     background-repeat: no-repeat;
-    padding: 1% 33% 1% 1%;
-    margin: 4% 0% 3% 9%;
+    padding: 1% 27% 1% 1%;
+    margin: 5% 0% 3% 9%;
     border: 2px solid #040404e6;
     border-radius: 60px;
     /* font-size-adjust: 1.2; */
@@ -530,7 +530,7 @@
   .icon {
     background-size: 100%;
     float: right;
-    margin: 5% 3% 1% 1%;
+    margin: 5.5% 4% 1% 1%;
   }
   .icart {
     background-image: url(icons/carrito-de-compras-2.png);
