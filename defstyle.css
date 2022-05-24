@@ -27,10 +27,12 @@
     background-image: url(assets/perrogatoGrande2.jpg);
     background-repeat: no-repeat;
     grid-row: 2 / 3;
+    height: auto;
+
   }
   .hello {
     position: absolute;
-    top: 15%;
+    top: 18%;
     left: 6%;
     width: 29%;
     line-height: 1.6;
@@ -38,13 +40,13 @@
   }
   .title {
     color: #fff;
-    font-size: 7rem;
+    font-size: 7.9rem;
     font-family: "Rubik Moonrocks", cursive;
     margin-top: 15%;
   }
   .paragraf {
     color: #5df7e1;
-    font-size: 3.5rem;
+    font-size: 4.3rem;
     font-family: "Mukta", cursive;
     margin-top: 11%;
   }
@@ -296,10 +298,12 @@
     background-size: 100%;
     background-position-x: center;
     background-image: url(assets/perrogatoGrande2.jpg);
+    height: auto;
+
   }
   .hello {
     position: absolute;
-    top: 8%;
+    top: 26%;
     left: 6%;
     width: 29%;
     line-height: 1.6;
@@ -307,13 +311,13 @@
   }
   .title {
     color: #fff;
-    font-size: 3rem;
+    font-size: 4.9rem;
     font-family: "Rubik Moonrocks", cursive;
     margin-top: 15%;
   }
   .paragraf {
     color: #5df7e1;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-family: "Mukta", cursive;
     margin-top: 11%;
   }
@@ -433,10 +437,12 @@
     background-image: url(assets/perrogatoGrande2.jpg);
     background-repeat: no-repeat;
     grid-row: 2 / 3;
+    height: auto;
+
   }
   .hello {
     position: absolute;
-    top: 8%;
+    top: 17%;
     left: 6%;
     width: 29%;
     line-height: 1.6;
@@ -516,7 +522,7 @@
     background-position: 95% 40%;
     background-size: 2em;
     background-repeat: no-repeat;
-    padding: 1% 18% 1% 1%;
+    padding: 1% 25% 1% 1%;
     margin: 4% 0% 3% 10%;
     border: 2px solid #040404e6;
     border-radius: 60px;
@@ -569,10 +575,12 @@
     background-position-x: center;
     background-image: url(assets/perrogatoGrande2.jpg);
     grid-row: 2 / 3;
+    height: auto;
+
   }
   .hello {
     position: absolute;
-    top: 15%;
+    top: 24%;
     left: 6%;
     width: 29%;
     line-height: 1.6;
@@ -586,7 +594,7 @@
   }
   .paragraf {
     color: #5df7e1;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-family: "Mukta", cursive;
     margin-top: 11%;
   }
@@ -708,21 +716,21 @@
   }
   .hello {
     position: absolute;
-    top: 15%;
-    left: 6%;
-    width: 29%;
+    top: 18%;
+    left: 5%;
+    width: 27%;
     line-height: 1.6;
     letter-spacing: 1px;
   }
   .title {
     color: #fff;
-    font-size: 3rem;
+    font-size: 2.3rem;
     font-family: "Rubik Moonrocks", cursive;
-    margin-top: 15%;
+    margin-top: 30%;
   }
   .paragraf {
     color: #5df7e1;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-family: "Mukta", cursive;
     margin-top: 11%;
   }
@@ -745,7 +753,7 @@
   }
 
   .menu {
-    display: none;
+    display: flex;
     margin: 0% 0% 0% 0%;
     background-color: #04040466;
     list-style-type: none;
@@ -756,7 +764,7 @@
     clear: both;
   }
   .listmenu {
-    padding: 1% 14.4% 1% 12%;
+    padding: 1% 12.5% 1% 12%;
   }
 
   .listmenu > a {
@@ -771,7 +779,7 @@
   }
 
   .logo {
-    width: 9.5rem;
+    width: 8.5rem;
     position: relative;
     float: left;
     z-index: 1;
@@ -784,15 +792,15 @@
     background-position: 95% 40%;
     background-size: 1.7em;
     background-repeat: no-repeat;
-    padding: 1% 30% 1% 1%;
-    margin: 5% 0% 3% 12%;
+    padding: 1% 23% 1% 1%;
+    margin: 5% 0% 3% 7%;
     border: 2px solid #040404e6;
     border-radius: 20px;
   }
   .icon {
     background-size: 100%;
     float: right;
-    margin: 5% 3% 1% 1%;
+    margin: 5.5% 4% 1% 1%;
   }
   .icart {
     background-image: url(icons/carrito-de-compras-2.png);
