@@ -131,7 +131,7 @@
     padding: 50px;
   }
   .btnmenu {
-    display: block;
+    display: none;
 
   }
 }
@@ -268,7 +268,7 @@
     padding: 30px;
   }
   .btnmenu {
-    display: block;
+    display: none;
 
   }
 }
@@ -407,7 +407,7 @@
     padding: 25px;
   }
   .btnmenu {
-    display: block;
+    display: none;
 
   }
 }
@@ -546,7 +546,7 @@
   }
 
   .btnmenu {
-    display: block;
+    display: none;
 
   }
 }
