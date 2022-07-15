@@ -1,0 +1,23 @@
+{
+  "name": "chaminpetshop.github.io",
+  "version": "1.0.0",
+  "description": "Tienda Online ChaminPS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/D-Ohm/chaminpetshop.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/D-Ohm/chaminpetshop.github.io/issues"
+  },
+  "homepage": "https://github.com/D-Ohm/chaminpetshop.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.0-beta1"
+  }
+}
